@@ -5,8 +5,8 @@ from shutil import copyfile, copy2
 #For recursive copying of directories containing intra-directory symlinks
 #Updates symlink to new location
 
-cp_src_dir = "Source" #input("Source Directory: ")
-cp_dest_dir = "Destination" #input("Destination: ")
+cp_src_dir = "/your/source/" #input("Source Directory: ")
+cp_dest_dir = "/my/destination/" #input("Destination: ")
 
 print("Copying directory %s to %s" % (cp_src_dir,cp_dest_dir))
 missing_links = []
